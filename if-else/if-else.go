@@ -20,4 +20,10 @@ func main() {
 	} else {
 		fmt.Println("has multiple digits")
 	}
+
+	if foo := 1; foo < 2 {
+		//the foo variable is only available in this block
+		fmt.Println(foo)
+	}
+	// fmt.Println(foo) // Error: undefined: foo
 }
