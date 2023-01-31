@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Given a non-negative integer not exceeding 10000.
+// Find and print the first digit of the number.
 func main() {
 
 	var number, modulo, result int
@@ -27,5 +29,5 @@ func main() {
 		result = (number - (number % modulo)) / modulo
 	}
 
-	fmt.Printf("The result is: %d\n", result)
+	fmt.Println(result)
 }

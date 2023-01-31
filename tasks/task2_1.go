@@ -10,5 +10,5 @@ func main() {
 
 	number = number % 10
 
-	fmt.Printf("The number is: %d\n", number)
+	fmt.Println(number)
 }
