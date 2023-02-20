@@ -4,23 +4,23 @@ import "fmt"
 
 func main() {
 	var a = "initial"
-	fmt.Println(a)
+	fmt.Println(a) // initial
 
 	var b, c int = 1, 2
-	fmt.Println(b, c)
+	fmt.Println(b, c) // 1 2
 
 	var d = true
-	fmt.Println(d)
+	fmt.Println(d) // true
 
 	var e int
-	fmt.Println(e)
+	fmt.Println(e) // 0
 
 	f := "apple"
-	fmt.Println(f)
+	fmt.Println(f) // "apple"
 
 	var x string
-	fmt.Println(x)
+	fmt.Println(x) // ""
 
-	// aka var_dump in php
-	fmt.Printf("%#v", x)
+	var sunny = true
+	fmt.Printf("type is %T, value is %v\n", sunny, sunny)
 }
