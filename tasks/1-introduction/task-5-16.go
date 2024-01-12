@@ -4,6 +4,7 @@ import "fmt"
 
 // The hour hand has turned d degrees since the beginning of the day.
 // Determine how many whole hours h and whole minutes m are now.
+// 111 -> It is 3 hours 42 minutes.
 func main() {
 
 	var d, h, m int
